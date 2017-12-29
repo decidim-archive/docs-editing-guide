@@ -1,20 +1,20 @@
 {
-  "name": "docs-SLUG",
+  "name": "docs-editing-guide",
   "version": "1.0.0",
   "description": "Document Description",
   "keywords": [
     "Decidim",
     "docs",
-    "SLUG"
+    "editing-guide"
   ],
-  "homepage": "https://docs.decidim.org/SLUG/",
-  "repository": "github:decidim/docs-SLUG",
+  "homepage": "https://docs.decidim.org/editing-guide/",
+  "repository": "github:decidim/docs-editing-guide",
   "license": "AGPL-3.0",
   "author": "Decidim Team <hola@decidim.org> (https://decidim.org/)",
   "scripts": {
     "start": "gitbook serve",
-    "prebuild": "gitbook build . SLUG",
-    "build": "mkdir -p _book && mv -t _book SLUG",
+    "prebuild": "gitbook build . editing-guide",
+    "build": "mkdir -p _book && mv -t _book editing-guide",
     "postbuild": "cp _redirects _book/"
   },
   "dependencies": {
