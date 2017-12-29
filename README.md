@@ -1,6 +1,6 @@
-# Decidim Document Template
+# Decidim Documents Editing Guide
 
-GitBook starter repo to ease the edition and publication of Decidim documentation.
+Guide to edit and publish Decidim documentation.
 
 ## License
 
