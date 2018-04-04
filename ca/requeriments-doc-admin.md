@@ -30,3 +30,9 @@ $ curl -L https://git.io/n-install | N_PREFIX=~/.n bash -s -- -n
 $ echo 'export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"' >> ~/.bash_profile
 $ source ~/.bash_profile
 ```
+
+
+## Enllaços
+
+- Node.js https://nodejs.org/en/
+- n https://github.com/mklement0/n-install
