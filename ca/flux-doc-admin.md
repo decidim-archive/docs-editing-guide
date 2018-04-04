@@ -4,59 +4,59 @@
 
 Per tal de poder publicar un nou document, cal obrir un terminal i seguir les passes que describim a continuació:
 
-1. Create a brand new document repo in GitHub. Follow the pattern **docs-slug** to name it
+1. Creem un nou repositori per al document a *GitHub*. Seguim el patró **docs-slug** per donar-li nom.
 
-2. Clone **decidim/docs-template** repo
+2. Clonem el repositori **decidim/docs-template**.
 ```bash
 $ git clone git@github.com:decidim/docs-template.git docs-slug
 ```
 
-3. Change to document directory and install dependencies
+3. Ens situem al directori del document i instal·lem les dependències.
 ```bash
 $ cd docs-slug
 $ npm install
 ```
 
-4. Change remotes
+4. Actualitzem els *remots*.
 ```bash
 $ git remote set-url origin git@github.com:decidim/docs-slug.git
 ```
 
-5. Update the repo README file and commit changes
+5. Actualitzem el fitxer *README* del repositori i fem *commit* dels canvis.
 ```bash
-$ git ci -am "Update README file"
+$ git commit -am "Update README file"
 ```
 
-6. Update *package.json* file and commit changes
+6. Actualitzem el fitxer *package.json* i fem *commit* dels canvis.
 ```bash
 $ sed -i s/SLUG/slug/g ./package.json
-$ git ci -am "Update document slug in package.json file"
+$ git commit -am "Update document slug in package.json file"
 ```
 
-7. Update *book.json* file and commit changes
+7. Actualitzem el fitxer *book.json* i fem *commit* dels canvis.
 ```bash
 $ sed -i s/SLUG/slug/g ./book.json
-$ git ci -am "Update document slug in book.json file"
+$ git commit -am "Update document slug in book.json file"
 ```
 
-8. Update *_redirects* file and commit changes
+8. Actualitzem el fitxer *_redirects* i fem *commit* dels canvis.
 ```bash
 $ sed -i s/SLUG/slug/g ./_redirects
-$ git ci -am "Update document slug in _redirects file"
+$ git commit -am "Update document slug in _redirects file"
 ```
 
-9. Push changes to the document repo master branch
+9. Publiquem els canvis a la branca *master* del repositori del document.
 ```bash
 $ git push -u origin master
 ```
 
-10. Update document metadata in `/{ca,en,es}/book.json` files and commit changes from GitHub
+10. Actualitzem les metadades del document als fitxers `/{ca,en,es}/book.json` i fem *commit* dels canvis directament des de *GitHub*.
 
-11. Add *decidim* and *decidim-docs* topics to the GitHub document repo
+11. A *GitHub* afegim els [topics](https://help.github.com/articles/about-topics/) *decidim* i *decidim-docs* al repositori del document.
 
-12. Configure settings of the document repo in GitHub (take *docs-template* repo settings as example)
+12. Configurem els *settings* del repositori del document a *GitHub* (prenem la configuració del repositori [decidim/docs-template](https://github.com/decidim/docs-template) com a exemple).
 
-13. Deploy the document site in Netlify
+13. Despleguem la versió online del document a *Netlify*:
 
   1. New Site from Git
   2. Connect to GitHub provider
@@ -66,14 +66,13 @@ $ git push -u origin master
       * Build command: `npm run build`
       * Publish directory: `_book`
 
-14. Customize the document site settings in Netlify
+14. Ajustem els *Site settings* del document a *Netlify*:
 
-  1. Change site name to decidim-slug
+  1. Change site name to *decidim-slug*
   2. Enable asset optimization
   3. Visit the brand new document site in https://decidim-slug.netlify.com/slug/
 
-15. Add a new entry in [docs.yml](https://github.com/decidim/docs.decidim.org/blob/master/_data/docs.yml) file
-from *decidim/docs.decidim.org* repo and commit changes
+15. Afegim una nova entrada al fitxer [docs.yml](https://github.com/decidim/docs.decidim.org/blob/master/_data/docs.yml) del repositori *decidim/docs.decidim.org* i fem *commit* dels canvis:
 
 ```yaml
 - title: slug
@@ -82,7 +81,7 @@ from *decidim/docs.decidim.org* repo and commit changes
   url: "https://decidim-slug.netlify.com"
 ```
 
-Visit the brand new document site in https://docs.decidim.org/slug/
+En aquest punt la nova versió online del document és accessible a l'adreça https://docs.decidim.org/slug/.
 
 
 ### Connexió segura a GitHub
@@ -112,3 +111,12 @@ $ ssh-add ~/.ssh/id_rsa
 # A la pregunta de si confiem en el host de destí respondrem que sí.
 $ ssh -T git@github.com
 ```
+
+
+## Enllaços
+
+- Generating eBooks and PDFs https://toolchain.gitbook.com/ebook.html
+- GitHub https://github.com/
+- About topics https://help.github.com/articles/about-topics/
+- Connecting to GitHub with SSH https://help.github.com/articles/connecting-to-github-with-ssh/
+- Netlify https://www.netlify.com/

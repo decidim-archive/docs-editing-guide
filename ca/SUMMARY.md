@@ -6,4 +6,4 @@
 * [3. Requeriments (Power Writer)](requeriments-power-writer.md)
 * [4. Requeriments (Doc Admin)](requeriments-doc-admin.md)
 * [5. Configuració](configuracio.md)
-* [6. Flux de treball (Doc Admin)](admin-documentacio.md)
+* [6. Flux de treball (Doc Admin)](flux-doc-admin.md)
