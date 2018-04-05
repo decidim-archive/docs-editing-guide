@@ -1,57 +1,72 @@
 # Flux de treball
 
-1. Obriu un terminal i creeu, si no ho heu fet amb anterioritat, el directori que allotjarà els documents
+El primer cop que treballem amb *GitBook Editor* cal que preparem l'espai de treball que acollirà els documents
+sobre els que farem les nostres contribucions. Obrim un terminal i executem la comanda següent:
+
 ```bash
 $ mkdir -p GitBook/Library/Imports
 ```
 
-2. Cambieu al directori que ha d'allotjar els documents
+### Contribució a un document nou
+
+Si volem afegir un document nou a la documentació del projecte haurem de demanar a l'**Administradora de documentació**
+que prepari el repositori que l'allotjarà a *GitHub*.
+
+Un cop l'**Administradora de documentació** ens doni el vist i plau podrem fer les nostres contribucions seguint les indicacions
+de la secció següent.
+
+### Contribució a un document ja existent
+
+Si és el primer cop que fem una contribució al document cal que preparem l'entorn de treball seguint les instruccions següents:
+
+1. En un terminal ens situem al directori que ha d'allotjar el document.
 ```bash
 $ cd && cd GitBook/Library/Imports
 ```
 
-3. Cloneu, si no ho heu fet amb anterioritat, el repositori del document al que voleu afegir la vostra contribució
+2. Clonem el repositori del document al que volem afegir la nostra contribució.
 ```bash
 $ git clone https://github.com/decidim/docs-workshop.git
 ```
 
-4. Inicieu el *GitBook Editor*
+Per començar a fer les nostres contribucions al document cal seguir les indicacions següents:
 
-5. A la finestra d'inici cliqueu sobre l'enllaç *Do that later*
+1. Iniciem el *GitBook Editor*.
+
+2. A la finestra d'inici cliquem sobre l'enllaç *Do that later*.
 
    ![](./img/flux-writer-01.png)
 
-6. Seleccioneu el document sobre el que voleu treballar
+3. Seleccionem el document sobre el que volem treballar.
 
   ![](./img/flux-writer-02.png)
 
-6. Un cop obert, i **abans de fer la vostra contribució**, creeu una branca per guardar els vostres canvis
+4. Un cop obert, i **abans de fer la nostra contribució**, creem una branca per guardar els nostres canvis.
 
    ![](./img/flux-writer-03.png)
 
-7. A continuació seleccioneu la branca de treball i feu les vostres contribucions
+5. A continuació seleccionem la branca de treball i fem les nostres contribucions.
 
    ![](./img/flux-writer-04.png)
 
-8. Cada cop que guardeu els canvis fets sobre el document l'editor us demanarà que escriviu el comentari associat al *commit* que afegirà a l'històric del document
+6. Cada cop que guardem els canvis fets sobre el document l'editor ens demanarà que escrivim el comentari associat al *commit* que afegirà a l'històric del document.
 
    ![](./img/flux-writer-05.png)
 
-9. Un cop hàgiu enllestit la sessió de treball i ara per ara no hagueu de fer cap més canvi publiqueu les vostres contribucions
+7. Un cop hàgim enllestit la sessió de treball i ara per ara no haguem de fer cap més canvi publiquem les nostres contribucions.
 
    ![](./img/flux-writer-06.png)
 
-10. Introduiu les vostres credencials a GitHub quan l'editor us ho demani
+8. Introduim les nostres credencials a *GitHub* quan l'editor ens ho demani.
 
    ![](./img/flux-writer-07.png)
 
-11. Comuniqueu a l'administradora de documentació que heu fet la vostra contribució per a que pugui integrar els canvis a la branca principal  *master* del document
+9. Comuniquem a l'**Administradora de documentació** que hem fet la nostra contribució per a que pugui integrar els canvis a la branca principal  *master* del document.
 
-12. Un cop l'administradora us comuniqui que ha integrat els vostres canvis podreu sincronitzar la vostra còpia local. Seleccioneu la branca principal com a branca de treball, feu *Sync* al menú *Book*
+10. Un cop l'administradora ens comuniqui que ha integrat els nostres canvis podrem sincronitzar la nostra còpia local. Seleccionem la branca principal com a branca de treball i fem *Sync* al menú *Book*.
 
     ![](./img/flux-writer-08.png)
 
-13. Un cop els canvis s'hagin sincronitzat sense conflictes podreu esborrar la branca de treball que heu fet servir per a fer les vostres contribucions
+11. Un cop els canvis s'hagin sincronitzat sense conflictes podrem esborrar la branca de treball que hem fet servir per a fer les nostres contribucions.
 
     ![](./img/flux-writer-09.png)
-
