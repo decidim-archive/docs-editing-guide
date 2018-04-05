@@ -24,7 +24,7 @@ Si és el primer cop que fem una contribució al document cal que preparem l'ent
 $ cd && cd GitBook/Library/Imports
 ```
 
-2. Clonem el repositori del document al que volem afegir la nostra contribució.
+2. [Clonem el repositori](https://help.github.com/articles/cloning-a-repository/) del document al que volem afegir la nostra contribució.
 ```bash
 $ git clone https://github.com/decidim/docs-workshop.git
 ```
@@ -70,3 +70,9 @@ Per començar a fer les nostres contribucions al document cal seguir les indicac
 11. Un cop els canvis s'hagin sincronitzat sense conflictes podrem esborrar la branca de treball que hem fet servir per a fer les nostres contribucions.
 
     ![](./img/flux-writer-09.png)
+
+
+## Enllaços
+
+- GitHub https://github.com/
+- Cloning a repository https://help.github.com/articles/cloning-a-repository/
