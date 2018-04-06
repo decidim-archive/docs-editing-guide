@@ -1,11 +1,15 @@
 # Flux de treball
 
+### Preparació de l'entorn de treball
+
 El primer cop que treballem amb *GitBook Editor* cal que preparem l'espai de treball que acollirà els documents
 sobre els que farem les nostres contribucions. Obrim un terminal i executem la comanda següent:
 
 ```bash
 $ mkdir -p GitBook/Library/Imports
 ```
+
+A continuació demanarem a l'**Administradora de documentació** que ens afegeixi al grup de redactores de documentació (equip *docs*) a *GitHub*.
 
 ### Contribució a un document nou
 
