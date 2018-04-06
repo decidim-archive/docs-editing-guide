@@ -23,28 +23,28 @@ Arribats a aquest punt podrem començar a fer contribucions a la documentació d
 
 ### Visual Studio Code
 
-Si heu optat per *Visual Studio Code* per a editar continguts és recomanable instal·lar l'extensió [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one):
+Si hem optat per *Visual Studio Code* per a editar continguts és recomanable instal·lar l'extensió [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one):
 
-1. Obriu *Visual Studio Code*.
-2. Obriu el *Quick Open* amb la combinació *Ctrl+P*
-3. Escriviu la comanda `ext install yzhang.markdown-all-in-one` i feu `Enter`.
+1. Obrim *Visual Studio Code*.
+2. Obrim el *Quick Open* amb la combinació *Ctrl+P*
+3. Escrivim la comanda `ext install yzhang.markdown-all-in-one` i fem `Enter`.
 
-En endavant, quan volgueu **previsualitzar el vostre document *markdown*** només caldrà que obriu el previsualitzador seguint les passes següents:
+En endavant, quan volguem **previsualitzar el nostre document *markdown*** només caldrà que obrim el previsualitzador seguint les passes següents:
 
-1. Obriu la caixa de comandes amb la combinació *Ctrl+Shift+P*
-2. Escriviu la comanda `Markdown: Open Preview to the Side`.
+1. Obrim la caixa de comandes amb la combinació *Ctrl+Shift+P*
+2. Escrivim la comanda `Markdown: Open Preview to the Side`.
 
-Finalment, **si sou usuàries de *Windows 10***, cal que configureu el terminal integrat de l'editor seguint les passes següents:
+Finalment, **si som usuàries de *Windows 10***, cal que configurem el terminal integrat de l'editor seguint les passes següents:
 
-1. Obriu les preferències de l'editor amb la combinació *Ctrl+,*
-2. Afegiu a la *Configuració d'usuari* del panell dret la línia
+1. Obrim les preferències de l'editor amb la combinació *Ctrl+,*
+2. Afegim a la *Configuració d'usuari* del panell dret la línia
 ```json
 {
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 }
 ```
 
-D'aquesta manera, quan calgui accedir a un terminal podreu obrir el terminal integrat amb la combinació *Ctrl+ñ*
+D'aquesta manera, quan calgui accedir a un terminal podrem obrir el terminal integrat amb la combinació *Ctrl+ñ*
 
 
 ## Enllaços
