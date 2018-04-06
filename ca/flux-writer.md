@@ -6,7 +6,7 @@ El primer cop que treballem amb *GitBook Editor* cal que preparem l'espai de tre
 sobre els que farem les nostres contribucions. Obrim un terminal i executem la comanda següent:
 
 ```bash
-$ mkdir -p GitBook/Library/Imports
+mkdir -p GitBook/Library/Imports
 ```
 
 A continuació demanarem a l'**Administradora de documentació** que ens afegeixi al grup de redactores de documentació (equip *docs*) a *GitHub*.
@@ -25,12 +25,12 @@ Si és el primer cop que fem una contribució al document cal que preparem l'ent
 
 1. En un terminal ens situem al directori que ha d'allotjar el document.
 ```bash
-$ cd && cd GitBook/Library/Imports
+cd && cd GitBook/Library/Imports
 ```
 
 2. [Clonem el repositori](https://help.github.com/articles/cloning-a-repository/) del document al que volem afegir la nostra contribució.
 ```bash
-$ git clone https://github.com/decidim/docs-workshop.git
+git clone https://github.com/decidim/docs-workshop.git
 ```
 
 Per començar a fer les nostres contribucions al document cal seguir les indicacions següents:

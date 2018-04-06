@@ -8,46 +8,46 @@ Per tal de poder publicar un nou document, cal obrir un terminal i seguir les pa
 
 2. Clonem el repositori **decidim/docs-template**.
 ```bash
-$ git clone git@github.com:decidim/docs-template.git docs-slug
+git clone git@github.com:decidim/docs-template.git docs-slug
 ```
 
 3. Ens situem al directori del document i instal·lem les dependències.
 ```bash
-$ cd docs-slug
-$ npm install
+cd docs-slug
+npm install
 ```
 
 4. Actualitzem els *remots*.
 ```bash
-$ git remote set-url origin git@github.com:decidim/docs-slug.git
+git remote set-url origin git@github.com:decidim/docs-slug.git
 ```
 
 5. Actualitzem el fitxer *README* del repositori i fem *commit* dels canvis.
 ```bash
-$ git commit -am "Update README file"
+git commit -am "Update README file"
 ```
 
 6. Actualitzem el fitxer *package.json* i fem *commit* dels canvis.
 ```bash
-$ sed -i s/SLUG/slug/g ./package.json
-$ git commit -am "Update document slug in package.json file"
+sed -i s/SLUG/slug/g ./package.json
+git commit -am "Update document slug in package.json file"
 ```
 
 7. Actualitzem el fitxer *book.json* i fem *commit* dels canvis.
 ```bash
-$ sed -i s/SLUG/slug/g ./book.json
-$ git commit -am "Update document slug in book.json file"
+sed -i s/SLUG/slug/g ./book.json
+git commit -am "Update document slug in book.json file"
 ```
 
 8. Actualitzem el fitxer *_redirects* i fem *commit* dels canvis.
 ```bash
-$ sed -i s/SLUG/slug/g ./_redirects
-$ git commit -am "Update document slug in _redirects file"
+sed -i s/SLUG/slug/g ./_redirects
+git commit -am "Update document slug in _redirects file"
 ```
 
 9. Publiquem els canvis a la branca *master* del repositori del document.
 ```bash
-$ git push -u origin master
+git push -u origin master
 ```
 
 10. Actualitzem les metadades del document als fitxers `/{ca,en,es}/book.json` i fem *commit* dels canvis directament des de *GitHub*.
@@ -96,20 +96,20 @@ En un terminal executem les comandes següents:
 # 1. Si no en tenim, generem una nova clau SSH.
 # Quan ens ho demani acceptem el nom del fitxer suggerit
 # i introduïm la clau de pas de seguretat.
-$ ssh-keygen -t rsa -b 4096 -C "jane.doe@mail.com"
+ssh-keygen -t rsa -b 4096 -C "jane.doe@mail.com"
 
 # 2. Iniciem el ssh-agent, responsable de gestionar les claus
-$ eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)"
 
 # 3. Afegim la clau SSH al ssh-agent
-$ ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_rsa
 
 # 4. Afegim la clau SSH al nostre compte de GitHub
 # https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 # 5. Verifiquem que podem establir una connexió segura amb GitHub.
 # A la pregunta de si confiem en el host de destí respondrem que sí.
-$ ssh -T git@github.com
+ssh -T git@github.com
 ```
 
 

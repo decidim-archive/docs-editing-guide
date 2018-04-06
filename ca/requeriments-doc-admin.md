@@ -15,20 +15,20 @@ Obrim un terminal i executem les comandes
 
 ```bash
 # 1. Instal·lem les dependències
-$ sudo apt install curl
+sudo apt install curl
 
 # 2. Instal·lem n
-$ curl -L https://git.io/n-install | N_PREFIX=~/.n bash -s -- -y
-$ source ~/.bashrc
+curl -L https://git.io/n-install | N_PREFIX=~/.n bash -s -- -y
+source ~/.bashrc
 ```
 
 ### macOS
 Obrim un terminal i executem les comandes
 
 ```bash
-$ curl -L https://git.io/n-install | N_PREFIX=~/.n bash -s -- -n
-$ echo 'export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"' >> ~/.bash_profile
-$ source ~/.bash_profile
+curl -L https://git.io/n-install | N_PREFIX=~/.n bash -s -- -n
+echo 'export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"' >> ~/.bash_profile
+source ~/.bash_profile
 ```
 
 

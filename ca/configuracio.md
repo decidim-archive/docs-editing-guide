@@ -6,10 +6,10 @@ En un terminal executem les comandes següents:
 
 ```bash
 # 1. Definim quin nom farem servir per identificar les nostres contribucions
-$ git config --global user.name "Jane Doe"
+git config --global user.name "Jane Doe"
 
 # 2. Definim una adreça de correu associada al nostre nom d'usuària
-$ git config --global user.email "jane.doe@mail.com"
+git config --global user.email "jane.doe@mail.com"
 ```
 
 ### GitHub

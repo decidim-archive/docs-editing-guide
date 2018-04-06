@@ -18,7 +18,7 @@ Farem servir el gestor de paquets del sistema per a instal·lar el programari ne
 Obrim un terminal i executem la comanda
 
 ```bash
-$ sudo apt install git
+sudo apt install git
 ```
 
 #### GitBook Editor
@@ -31,33 +31,33 @@ Obrim un terminal i executem les comandes
 
 ```bash
 # 1. Instal·lem Xcode Command Line Tools
-$ xcode-select --install
+xcode-select --install
 
 # 2. Instal·lem Homebrew
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # 3. Instal·lem Homebrew-Cask
-$ brew tap caskroom/cask
+brew tap caskroom/cask
 ```
 
 #### Git
 Comprovem que el tenim instal·lat en el sistema amb la comanda
 
 ```bash
-$ git --version
+git --version
 ```
 
 Si el terminal no ens mostra la versió instal·lada, procedirem a la instal·lació amb la comanda
 
 ```bash
-$ brew install git
+brew install git
 ```
 
 #### GitBook Editor
 Instal·lem l'editor amb la comanda
 
 ```bash
-$ brew cask install gitbook-editor
+brew cask install gitbook-editor
 ```
 
 ### Windows

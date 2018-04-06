@@ -15,7 +15,7 @@ en els operatius [Ubuntu 14.04+](#ubuntu), [macOS 10.10+](#macos) i [Windows 10 
 Obrim un terminal i instal·lem l'editor amb la comanda
 
 ```bash
-$ brew cask install visual-studio-code
+brew cask install visual-studio-code
 ```
 
 ### Windows
