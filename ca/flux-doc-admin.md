@@ -54,7 +54,7 @@ $ git push -u origin master
 
 11. A *GitHub* afegim els [topics](https://help.github.com/articles/about-topics/) *decidim* i *decidim-docs* al repositori del document.
 
-12. Configurem els *settings* del repositori del document a *GitHub* (prenem la configuració del repositori [decidim/docs-template](https://github.com/decidim/docs-template) com a exemple).
+12. Configurem els *settings* del repositori del document a *GitHub* (prenem la configuració del repositori [decidim/docs-template](https://github.com/decidim/docs-template) com a exemple). En particular, donem permisos d'escriptura al team *docs* sobre el repositori.
 
 13. Despleguem la versió online del document a *Netlify*:
 
