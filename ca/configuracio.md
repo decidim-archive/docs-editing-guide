@@ -29,7 +29,7 @@ Si heu optat per *Visual Studio Code* per a editar continguts és recomanable in
 2. Obriu el *Quick Open* amb la combinació *Ctrl+P*
 3. Escriviu la comanda `ext install yzhang.markdown-all-in-one` i feu `Enter`.
 
-En endavant, quan volgueu previsualitzar el vostre document *markdown* només caldrà que obriu el previsualitzador seguint les passes següents:
+En endavant, quan volgueu **previsualitzar el vostre document *markdown*** només caldrà que obriu el previsualitzador seguint les passes següents:
 
 1. Obriu la caixa de comandes amb la combinació *Ctrl+Shift+P*
 2. Escriviu la comanda `Markdown: Open Preview to the Side`.
