@@ -3,7 +3,7 @@
   "title": "Guia d'Edició de la Documentació de Decidim",
   "description": "Guia per editar i publicar la documentació de Decidim",
   "variables": {
-    "version": "1.0",
+    "version": "1.0.0",
     "date": "29/12/2017",
     "editors": "",
     "authors": "Carles Muiños",

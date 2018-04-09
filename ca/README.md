@@ -40,19 +40,19 @@
   </tr>
   <tr>
     <td>Resum</td>
-    <td>TODO (veure https://github.com/decidim/docs-features/blob/master/ca/README.md)</td>
+    <td></td>
   </tr>
   <tr>
     <td>Paraules clau</td>
-    <td>TODO (veure https://github.com/decidim/docs-features/blob/master/ca/README.md)</td>
+    <td></td>
   </tr>
   <tr>
     <td>Història del document</td>
-    <td>TODO (veure https://github.com/decidim/docs-features/blob/master/ca/README.md)</td>
+    <td></td>
   </tr>
   <tr>
     <td>Com se cita</td>
-    <td>TODO (veure https://github.com/decidim/docs-features/blob/master/ca/README.md)</td>
+    <td></td>
   </tr>
   <tr>
     <td>Copyleft</td>
