@@ -26,7 +26,37 @@ Com a **Redactores avançades** podem fer les nostres contribucions directament 
 
 #### Contribucions online
 
-TODO
+Per poder fer una contribució directament sobre la còpia online del document cal seguir les indicacions següents:
+
+1. Obrim al navegador la versió online del document.
+2. Cliquem sobre el botó *Edita* de la part superior.
+
+   ![](./img/flux-power-writer-00-0-0.png)
+
+3. Fem les nostres contribucions a la pestanya *Edit file*.
+
+   ![](./img/flux-power-writer-00-0-1.png)
+
+4. Abans de donar per definitius els canvis fem una previsualització a la pestanya *Preview changes*.
+
+   ![](./img/flux-power-writer-00-0-2.png)
+
+5. Si tot és correcte escrivim el comentari associat al *commit* que s'afegirà a l'històric del document.
+
+   ![](./img/flux-power-writer-00-0-3.png)
+
+6. A continuació escrivim el nom de la branca on penjarà el nostre *commit* i iniciem un *Pull Request*.
+
+   ![](./img/flux-power-writer-00-0-4.png)
+
+7. Triem com a *Reviewer* una de les **Administradores de documentació**.
+
+   ![](./img/flux-power-writer-00-0-5.png)
+
+8. I finalment enviem un *Pull Request* per a que les nostres contribucions siguin integrades en la branca principal del document.
+
+   ![](./img/flux-power-writer-00-0-6.png)
+   ![](./img/flux-power-writer-00-0-7.png)
 
 #### Contribucions offline
 
