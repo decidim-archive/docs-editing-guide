@@ -84,6 +84,13 @@ git push -u origin master
 En aquest punt la nova versió online del document és accessible a l'adreça https://docs.decidim.org/slug/.
 
 
+### Integració de les contribucions
+
+Quan una redactora demana integrar les seves contribucions a la branca principal del document, cal assegurar-se que el fitxer de metadades corresponent (`/{ca,en,es}/book.json`) reflecteixi la data d'actualització i la nova versió del document.
+
+Un cop els canvis han estat integrats, podem procedir a esborrar la branca publicada per la redactora.
+
+
 ### Connexió segura a GitHub
 
 Atès que l'**Administradora de documentació** haurà de treballar amb GitHub de forma habitual
