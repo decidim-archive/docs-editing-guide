@@ -1,8 +1,9 @@
 # Requeriments de programari
 
+Totes les persones implicades en la producció i publicació de documentació hauran de satisfer els requeriments generals de programari que llistem a continuació. Addicionalment, i segons el rol que exerceixin, caldrà que facin ús de les eines descrites en les seccions corresponents.
+
 1. Gestor de paquets
 2. [Git](https://git-scm.com/)
-3. [GitBook Editor](https://www.gitbook.com/editor)
 
 ## Instal·lació
 
@@ -20,9 +21,6 @@ Obrim un terminal i executem la comanda
 ```bash
 sudo apt install git
 ```
-
-#### GitBook Editor
-[Descarreguem](https://www.gitbook.com/editor/linux-64-bit/download) el paquet `.deb` i hi fem doble clic per instal·lar l'editor.
 
 ### macOS
 
@@ -53,13 +51,6 @@ Si el terminal no ens mostra la versió instal·lada, procedirem a la instal·la
 brew install git
 ```
 
-#### GitBook Editor
-Instal·lem l'editor amb la comanda
-
-```bash
-brew cask install gitbook-editor
-```
-
 ### Windows
 
 #### Gestor de paquets
@@ -70,17 +61,9 @@ Enlloc de fer servir un gestor de paquets instal·larem els requeriments de prog
 acceptant totes les opcions per defecte que ens apareixen. La instal·lació de *Git* inclou *Git Bash* com a interfície de línia de comandes.
 En endavant, **quan calgui obrir un terminal obrirem Git Bash** per executar les comandes indicades.
 
-#### GitBook Editor
-La darrera versió d'aquest editor no és compatible amb *Windows 10*.
-Alternativament podeu fer servir [Visual Studio Code](https://code.visualstudio.com/) com a editor de text.
-Llegiu les seccions [3. Requeriments (Power Writer)](requeriments-power-writer.md), [5. Configuració](configuracio.md)
-i [7. Flux de treball (Power Writer)](flux-power-writer.md) per aprendre a instal·lar-lo i fer-lo servir.
-
 
 ## Enllaços
 
 - Homebrew https://brew.sh/
 - Homebrew-Cask https://caskroom.github.io/
 - Git https://git-scm.com/
-- GitBook Editor https://www.gitbook.com/editor
-- Visual Studio Code https://code.visualstudio.com/

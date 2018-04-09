@@ -1,6 +1,6 @@
 # Requeriments de programari (Doc Admin)
 
-A més dels requeriments de programari que ja hem vist, l'**Administradora de documentació** necessita satisfer
+A més dels requeriments generals de programari que ja hem vist, l'**Administradora de documentació** necessita satisfer
 un requeriment addicional: [Node.js](https://nodejs.org/en/).
 
 

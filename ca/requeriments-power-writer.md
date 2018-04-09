@@ -1,6 +1,6 @@
 # Requeriments de programari (Power Writer)
 
-A més dels requeriments de programari generals que ja hem vist, les **Redactores avançades** poden fer ús de [Visual Studio Code](https://code.visualstudio.com/) com a editor de text alternatiu per a tenir un major control sobre el flux de contribució.
+A més dels requeriments generals de programari que ja hem vist, les **Redactores avançades** poden fer ús de [Visual Studio Code](https://code.visualstudio.com/) com a editor de text alternatiu per a tenir un major control sobre el flux de contribució.
 
 
 ## Instal·lació

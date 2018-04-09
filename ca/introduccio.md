@@ -10,7 +10,7 @@ En l'edició i publicació de documents podem distingir dos rols:
   De perfil tècnic, és la persona responsable de preparar el repositori que ha d'allotjar el nou document i de configurar-ne la sincronització amb el site que mostrarà la darrera versió on-line.
 
 - **Redactora**
-  Contribueix amb les seves aportacions a la producció de documentació del projecte. En funció del coneixement que tingui de les eines que cal fer servir en podem distingir **redactores** i **redactores avançades (power writer)**.
+  Contribueix amb les seves aportacions a la producció de documentació del projecte. En funció del coneixement que tingui de les eines que cal fer servir en podem distingir **redactores (writer)** i **redactores avançades (power writer)**.
 
 Aquesta guia explica pas a pas com instal·lar les eines que cal fer servir així com les passes que cal seguir per contribuir a la documentació del projecte.
 
