@@ -1,4 +1,4 @@
-# Flux de treball
+# Flux de treball (Writer)
 
 ### Preparació de l'entorn de treball
 
