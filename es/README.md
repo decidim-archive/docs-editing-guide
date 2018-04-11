@@ -40,19 +40,19 @@
   </tr>
   <tr>
     <td>Resumen</td>
-    <td>TODO (ver https://github.com/decidim/docs-features/blob/master/es/README.md)</td>
+    <td></td>
   </tr>
   <tr>
     <td>Palabras Clave</td>
-    <td>TODO (ver https://github.com/decidim/docs-features/blob/master/es/README.md)</td>
+    <td></td>
   </tr>
   <tr>
     <td>Historia del documento</td>
-    <td>TODO (ver https://github.com/decidim/docs-features/blob/master/es/README.md)</td>
+    <td></td>
   </tr>
   <tr>
     <td>Cómo citar</td>
-    <td>TODO (ver https://github.com/decidim/docs-features/blob/master/es/README.md)</td>
+    <td></td>
   </tr>
   <tr>
     <td>Copyleft</td>
